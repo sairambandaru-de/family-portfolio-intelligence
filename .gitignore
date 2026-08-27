@@ -1,0 +1,70 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# ============================================================
+# Environment and secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Private financial data - NEVER commit
+# ============================================================
+data/raw/**
+!data/raw/.gitkeep
+
+data/bronze/**
+!data/bronze/.gitkeep
+
+data/silver/**
+!data/silver/.gitkeep
+
+data/gold/**
+!data/gold/.gitkeep
+
+# Local database
+warehouse/*.duckdb
+warehouse/*.db
+!warehouse/.gitkeep
+
+# Backups
+backups/**
+!backups/.gitkeep
+
+# ============================================================
+# Streamlit
+# ============================================================
+.streamlit/secrets.toml
+
+# ============================================================
+# OS / Editor
+# ============================================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.DS_Store
+Thumbs.db
