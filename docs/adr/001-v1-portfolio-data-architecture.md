@@ -1,6 +1,6 @@
 # ADR-001: V1 Portfolio Data Architecture
 
-**Status:** Accepted  
+**Status:** Accepted
 **Date:** 2026-08-28
 
 ---
@@ -141,7 +141,6 @@ Duplicate behavior will be clearly recorded.
 ## Validation Strategy
 
 Validation will occur before data is considered canonical.
-
 ### Schema Validation
 
 - Required fields exist
