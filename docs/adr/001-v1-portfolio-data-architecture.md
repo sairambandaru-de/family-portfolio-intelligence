@@ -63,7 +63,8 @@ Holding Snapshot
 Source File
   |
   v
-Ingestion Run```
+Ingestion Run
+```
 The core database entities will initially include:
 
 - owners
@@ -74,7 +75,7 @@ The core database entities will initially include:
 - source_files
 - ingestion_runs
 - validation_results
-
+```
 ---
 
 ## Instrument Identity Strategy
@@ -161,11 +162,11 @@ Example:
 
 ```text
 Quantity × Market Price ≈ Market Value
-
+```
 
 ### Reconciliation
 
-Imported totals should reconcile with source statement totals where those totals are available.```
+Imported totals should reconcile with source statement totals where those totals are available.
 
 Example:
 
